@@ -1,2 +1,2 @@
 # C_Scripts
- Scrips created for lear C
+ Scrips created for learn C
