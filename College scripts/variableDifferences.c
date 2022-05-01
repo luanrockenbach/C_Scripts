@@ -3,7 +3,7 @@
 
 int main()
 {
-float userInput;
+int userInput;
 int number1 = 99;
 char letterA = 'A';
 float floatNumber = -0.9999;
@@ -55,10 +55,27 @@ printf("\nEscrevo um double float: %lf\n"
 
 printf("\n\n======EXERCICIOS======\n\n");
 
-printf("Digite um numero de 0 a 10.000: ");
-scanf("%f", &userInput);
-printf("%5.1f", userInput);
+printf("Digite um numero de 0 a 10.000:");
+scanf("%d", &userInput);
+printf("%d\n", userInput);
+
+int piInt = (3,14159265358979323846);
+unsigned int piUnsignedInt = (3.14159265358979323846);
+long int piLongInt = (3.14159265358979323846);
+float piFloat = (3.14159265358979323846);
+double piDouble = (3.14159265358979323846);
+
+printf("\nOs valores de pi em:\n"
+"inteiro: %d\n"
+"inteiro sem sinal: %u\n"
+"inteiro longo: %li\n"
+"float: %1.20f\n"
+"double: %1.20lf\n", piInt, piUnsignedInt, piLongInt, piFloat, piDouble);
+
+
 
 return 0;
+
+
 }
 
